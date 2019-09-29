@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <textlocal>
+            <general>
+                <enable>1</enable>
+                <registration_message>Dear {{first_name}} . Thank you for registering with us. Happy shopping.</registration_message>
+                <order_success_message>Dear {{first_name}} . Thank you for shopping with us. Your order id is {{order_id}}.</order_success_message>
+                <test_mode_enable>0</test_mode_enable>
+            </general>
+        </textlocal>
+    </default>
+</config>

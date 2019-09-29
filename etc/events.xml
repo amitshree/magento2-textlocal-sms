@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="customer_register_success">
+        <observer name="amitshree_customer_register_success_sms" instance="Amitshree\TextLocalSms\Observer\CustomerRegistrationSuccess" />
+    </event>
+    <event name="checkout_onepage_controller_success_action">
+        <observer name="amitshree_order_success_sms" instance="Amitshree\TextLocalSms\Observer\OrderSuccess" />
+    </event>
+</config>
